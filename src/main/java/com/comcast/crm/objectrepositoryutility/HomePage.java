@@ -40,7 +40,7 @@ public class HomePage {
 	@FindBy(xpath  = "//a[text()='Sign Out']")
 	private WebElement signOutLink;
 
-	public WebElement getProductLink1() {
+	public WebElement getProductLink() {
 		return productLink;
 	}
 	
