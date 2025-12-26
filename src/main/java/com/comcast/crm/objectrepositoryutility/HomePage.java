@@ -20,7 +20,7 @@ public class HomePage {
 	}
 
 	@FindBy(linkText = "Products")
-	private WebElement productLink;
+	private WebElement productLink1;
 	
 	@FindBy(linkText = "Organizations")
 	private WebElement orgLink;
@@ -41,7 +41,7 @@ public class HomePage {
 	private WebElement signOutLink;
 
 	public WebElement getProductLink() {
-		return productLink;
+		return productLink1;
 	}
 	
 	public WebElement getOrgLink() {
